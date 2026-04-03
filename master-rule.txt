@@ -26,3 +26,11 @@ Definition of Done:
 - Behavior works as expected
 - Tests or validation steps provided
 - Changes are minimal and isolated
+
+For every feature:
+- add or update automated verification
+- include unit or integration tests where feasible
+- include manual device validation steps for hardware-dependent behavior
+- do not consider the task complete unless verification steps are provided
+
+If a feature cannot be fully tested automatically, explain what is testable in CI and what must be manually validated on-device.

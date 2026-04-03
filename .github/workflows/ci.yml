@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main, "ci/**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Install Qt 6.7.2 via aqtinstall wrapper.
+      # cache: true stores the Qt installation between runs (~20s vs ~3min cold).
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v3
+        with:
+          version: '6.7.2'
+          host: 'linux'
+          target: 'desktop'
+          arch: 'linux_gcc_64'
+          # qtdeclarative = QtQuick + QtQml + QtQuickTest
+          # remaining modules match CMakeLists.txt find_package requirements
+          modules: 'qtdeclarative qtmultimedia qtsensors qtpositioning'
+          cache: true
+
+      # xvfb: virtual framebuffer required by QGuiApplication and Qt Quick Test
+      # mesa libs: OpenGL/GLES backend for headless Qt rendering
+      # libxkbcommon: keyboard input handling used internally by Qt on Linux
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y --no-install-recommends \
+            xvfb \
+            libgl1-mesa-dev \
+            libgles2-mesa-dev \
+            libxkbcommon-dev
+
+      - name: Configure
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build --parallel $(nproc)
+
+      # xvfb-run -a: auto-selects a free display number for the virtual framebuffer.
+      # Required because both tst_engine and tst_main_qml use QGuiApplication
+      # and Qt Quick Test's `when: windowShown` needs an active display.
+      - name: Test
+        run: xvfb-run -a ctest --test-dir build --output-on-failure

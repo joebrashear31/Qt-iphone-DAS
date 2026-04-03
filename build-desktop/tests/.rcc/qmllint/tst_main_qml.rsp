@@ -1,0 +1,15 @@
+--bare
+-I
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests
+-I
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/SenseCapture
+-I
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests
+-I
+/opt/homebrew/share/qt/qml
+--resource
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/qmake_SenseCapture.qrc
+--resource
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/tst_main_qml_raw_qml_0.qrc
+/Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml
+/Users/joebrashear/Desktop/Qt-iphone-DAS/main.qml

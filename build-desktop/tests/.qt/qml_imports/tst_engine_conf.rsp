@@ -1,0 +1,14 @@
+-rootPath
+/Users/joebrashear/Desktop/Qt-iphone-DAS/tests
+-cmake-output
+-output-file
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/qml_imports/tst_engine_conf.cmake
+-importPath
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests
+-importPath
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/SenseCaptureEngine
+-importPath
+/opt/homebrew/share/qt/qml
+-qrcFiles
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/qmake_SenseCaptureEngine.qrc
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/tst_engine_raw_qml_0.qrc

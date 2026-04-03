@@ -1,0 +1,27 @@
+{
+    "classes": [
+        {
+            "className": "EngineTest",
+            "lineNumber": 9,
+            "object": true,
+            "qualifiedClassName": "EngineTest",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "lineNumber": 14,
+                    "name": "test_mainQmlLoadsWithoutError",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "tst_engine.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>SenseCapture</string>
+
+    <key>CFBundleIdentifier</key>
+    <!-- Replace with your actual bundle ID -->
+    <string>com.example.sensecapture</string>
+
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+
+    <key>UIRequiresFullScreen</key>
+    <true/>
+
+    <key>UIStatusBarHidden</key>
+    <true/>
+
+    <!-- Required by Qt Multimedia (microphone access) -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>SenseCapture needs microphone access to record audio.</string>
+
+    <!-- Required by Qt Positioning (GPS) -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>SenseCapture needs location access to record positioning data.</string>
+
+    <!-- Required by Qt Sensors (motion data) -->
+    <key>NSMotionUsageDescription</key>
+    <string>SenseCapture needs motion access to read sensor data.</string>
+
+    <!-- Supported device orientations -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+</dict>
+</plist>

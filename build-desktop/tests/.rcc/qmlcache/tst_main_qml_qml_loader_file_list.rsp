@@ -1,0 +1,6 @@
+--resource
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/qmake_SenseCapture.qrc
+--resource
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/tst_main_qml_raw_qml_0.qrc
+/SenseCapture/tst_main_qml.qml
+/SenseCapture/../main.qml

@@ -40,6 +40,16 @@ target_link_libraries(SenseCapture PRIVATE
     Qt6::Positioning
 )
 
+# On non-Apple platforms the QML module creates a SenseCapture/ directory in the
+# build tree, which conflicts with a flat executable also named SenseCapture.
+# Redirect the binary to bin/ to avoid the collision. Apple uses .app bundles
+# so the conflict doesn't arise there.
+if(NOT APPLE)
+    set_target_properties(SenseCapture PROPERTIES
+        RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
+    )
+endif()
+
 # Enable CTest and include the tests subdirectory
 enable_testing()
 add_subdirectory(tests)

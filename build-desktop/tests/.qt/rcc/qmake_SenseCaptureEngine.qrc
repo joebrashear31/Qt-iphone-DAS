@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/SenseCaptureEngine">
+    <file alias="qmldir">/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/SenseCaptureEngine/qmldir</file>
+  </qresource>
+</RCC>
+

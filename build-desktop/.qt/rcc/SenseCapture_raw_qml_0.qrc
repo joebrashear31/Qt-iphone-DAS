@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/SenseCapture/">
+    <file alias="main.qml">/Users/joebrashear/Desktop/Qt-iphone-DAS/main.qml</file>
+  </qresource>
+</RCC>
+

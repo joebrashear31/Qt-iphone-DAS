@@ -1,0 +1,14 @@
+-rootPath
+/Users/joebrashear/Desktop/Qt-iphone-DAS
+-cmake-output
+-output-file
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/.qt/qml_imports/SenseCapture_conf.cmake
+-importPath
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop
+-importPath
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/SenseCapture
+-importPath
+/opt/homebrew/share/qt/qml
+-qrcFiles
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/.qt/rcc/qmake_SenseCapture.qrc
+/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/.qt/rcc/SenseCapture_raw_qml_0.qrc

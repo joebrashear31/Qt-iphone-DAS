@@ -1,0 +1,5 @@
+module SenseCapture
+typeinfo tst_main_qml.qmltypes
+prefer :/SenseCapture/
+depends QtQuick
+

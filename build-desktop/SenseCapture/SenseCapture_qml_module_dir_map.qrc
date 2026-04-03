@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/SenseCapture">/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/SenseCapture</file>
+
+  </qresource>
+</RCC>

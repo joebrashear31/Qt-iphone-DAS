@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_tst_main_qml_FILE /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/tst_main_qml)
+set(__QT_DEPLOY_TARGET_tst_main_qml_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_tst_engine_FILE /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/tst_engine)
+set(__QT_DEPLOY_TARGET_tst_engine_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_SenseCapture_FILE /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/SenseCapture.app/Contents/MacOS/SenseCapture)
+set(__QT_DEPLOY_TARGET_SenseCapture_TYPE EXECUTABLE)

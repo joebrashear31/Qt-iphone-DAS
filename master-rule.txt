@@ -1,0 +1,28 @@
+ENGINEERING RULES:
+
+Constraints:
+- Minimize changes
+- Do not refactor unrelated code
+- Keep code modular and readable
+- Follow existing project structure
+- Separate UI from logic
+- Add comments explaining key logic
+- Do not introduce unnecessary abstractions
+
+Process:
+1. First give me a clear implementation plan:
+   - files to modify
+   - functions/classes to add
+   - risks/assumptions
+2. Wait for my confirmation before coding
+3. Then implement ONLY what was agreed
+4. Show a diff-style summary by file
+5. Explain how to test manually
+6. List edge cases and failure modes
+7. Do NOT say complete until verified
+
+Definition of Done:
+- Code compiles
+- Behavior works as expected
+- Tests or validation steps provided
+- Changes are minimal and isolated

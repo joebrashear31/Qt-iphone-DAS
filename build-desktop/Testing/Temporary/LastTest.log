@@ -1,0 +1,65 @@
+Start testing: Apr 03 18:28 EDT
+----------------------------------------------------------
+1/2 Testing: QmlBehaviorTests
+1/2 Test: QmlBehaviorTests
+Command: "/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/tst_main_qml"
+Directory: /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests
+"QmlBehaviorTests" start time: Apr 03 18:28 EDT
+Output:
+----------------------------------------------------------
+********* Start testing of tst_main_qml *********
+Config: Using QtTest library 6.10.2, Qt 6.10.2 (arm64-little_endian-lp64 shared (dynamic) release build; by Apple LLVM 17.0.0 (clang-1700.6.3.2)), macos 15.3.0
+PASS   : tst_main_qml::MainQmlTests::initTestCase()
+QWARN  : tst_main_qml::MainQmlTests::test_recordButtonExists() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:38:25: QML QQuickRectangle: The current style does not support customization of this control (property: "background" item: QQuickRectangle(0x11665a4e0, parent=0x0, geometry=0,0 120x48)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+QWARN  : tst_main_qml::MainQmlTests::test_recordButtonExists() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:44:26: QML QQuickText: The current style does not support customization of this control (property: "contentItem" item: QQuickText(0x11665b760, parent=0x0, geometry=0,0 0x0 ⏿)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+QWARN  : tst_main_qml::MainQmlTests::test_recordButtonExists() qt.qpa.fonts: Populating font family aliases took 106 ms. Replace uses of missing font family "Sans Serif" with one that exists to avoid this cost. 
+PASS   : tst_main_qml::MainQmlTests::test_recordButtonExists()
+QWARN  : tst_main_qml::MainQmlTests::test_recordButtonPressedColor() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:38:25: QML QQuickRectangle: The current style does not support customization of this control (property: "background" item: QQuickRectangle(0x116b23390, parent=0x0, geometry=0,0 120x48)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+QWARN  : tst_main_qml::MainQmlTests::test_recordButtonPressedColor() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:44:26: QML QQuickText: The current style does not support customization of this control (property: "contentItem" item: QQuickText(0x116b23fe0, parent=0x0, geometry=0,0 0x0 ⏿)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+PASS   : tst_main_qml::MainQmlTests::test_recordButtonPressedColor()
+QWARN  : tst_main_qml::MainQmlTests::test_titleTextContent() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:38:25: QML QQuickRectangle: The current style does not support customization of this control (property: "background" item: QQuickRectangle(0x116b0c2f0, parent=0x0, geometry=0,0 120x48)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+QWARN  : tst_main_qml::MainQmlTests::test_titleTextContent() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:44:26: QML QQuickText: The current style does not support customization of this control (property: "contentItem" item: QQuickText(0x116b570e0, parent=0x0, geometry=0,0 0x0 ⏿)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+PASS   : tst_main_qml::MainQmlTests::test_titleTextContent()
+QWARN  : tst_main_qml::MainQmlTests::test_titleTextIsCentered() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:38:25: QML QQuickRectangle: The current style does not support customization of this control (property: "background" item: QQuickRectangle(0x116b219e0, parent=0x0, geometry=0,0 120x48)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+QWARN  : tst_main_qml::MainQmlTests::test_titleTextIsCentered() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:44:26: QML QQuickText: The current style does not support customization of this control (property: "contentItem" item: QQuickText(0x116b22260, parent=0x0, geometry=0,0 0x0 ⏿)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+PASS   : tst_main_qml::MainQmlTests::test_titleTextIsCentered()
+QWARN  : tst_main_qml::MainQmlTests::test_windowIsVisible() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:38:25: QML QQuickRectangle: The current style does not support customization of this control (property: "background" item: QQuickRectangle(0x116b08000, parent=0x0, geometry=0,0 120x48)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+QWARN  : tst_main_qml::MainQmlTests::test_windowIsVisible() file:///Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/main.qml:44:26: QML QQuickText: The current style does not support customization of this control (property: "contentItem" item: QQuickText(0x116b5a580, parent=0x0, geometry=0,0 0x0 ⏿)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+PASS   : tst_main_qml::MainQmlTests::test_windowIsVisible()
+PASS   : tst_main_qml::MainQmlTests::cleanupTestCase()
+Totals: 7 passed, 0 failed, 0 skipped, 0 blacklisted, 252ms
+********* Finished testing of tst_main_qml *********
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"QmlBehaviorTests" end time: Apr 03 18:28 EDT
+"QmlBehaviorTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: EngineSmokeTest
+2/2 Test: EngineSmokeTest
+Command: "/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/tst_engine"
+Directory: /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests
+"EngineSmokeTest" start time: Apr 03 18:28 EDT
+Output:
+----------------------------------------------------------
+********* Start testing of EngineTest *********
+Config: Using QtTest library 6.10.2, Qt 6.10.2 (arm64-little_endian-lp64 shared (dynamic) release build; by Apple LLVM 17.0.0 (clang-1700.6.3.2)), macos 15.3.0
+PASS   : EngineTest::initTestCase()
+QWARN  : EngineTest::test_mainQmlLoadsWithoutError() qrc:/SenseCaptureEngine/main.qml:38:25: QML QQuickRectangle: The current style does not support customization of this control (property: "background" item: QQuickRectangle(0x135671e80, parent=0x0, geometry=0,0 120x48)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+QWARN  : EngineTest::test_mainQmlLoadsWithoutError() qrc:/SenseCaptureEngine/main.qml:44:26: QML QQuickText: The current style does not support customization of this control (property: "contentItem" item: QQuickText(0x135673570, parent=0x0, geometry=0,0 0x0 ⏿)). Please customize a non-native style (such as Basic, Fusion, Material, etc). For more information, see: https://doc.qt.io/qt-6/qtquickcontrols2-customize.html#customization-reference
+QWARN  : EngineTest::test_mainQmlLoadsWithoutError() qt.qpa.fonts: Populating font family aliases took 106 ms. Replace uses of missing font family "Sans Serif" with one that exists to avoid this cost. 
+PASS   : EngineTest::test_mainQmlLoadsWithoutError()
+PASS   : EngineTest::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 402ms
+********* Finished testing of EngineTest *********
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"EngineSmokeTest" end time: Apr 03 18:28 EDT
+"EngineSmokeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 03 18:28 EDT

@@ -1,0 +1,5 @@
+module SenseCaptureEngine
+typeinfo tst_engine.qmltypes
+prefer :/SenseCaptureEngine/
+depends QtQuick
+

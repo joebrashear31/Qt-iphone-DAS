@@ -28,14 +28,12 @@ jobs:
           modules: 'qtmultimedia qtsensors qtpositioning'
           cache: true
 
-      # xvfb: virtual framebuffer required by QGuiApplication and Qt Quick Test
       # mesa libs: OpenGL/GLES backend for headless Qt rendering
       # libxkbcommon: keyboard input handling used internally by Qt on Linux
       - name: Install system dependencies
         run: |
           sudo apt-get update -q
           sudo apt-get install -y --no-install-recommends \
-            xvfb \
             libgl1-mesa-dev \
             libgles2-mesa-dev \
             libxkbcommon-dev
@@ -46,8 +44,10 @@ jobs:
       - name: Build
         run: cmake --build build --parallel $(nproc)
 
-      # xvfb-run -a: auto-selects a free display number for the virtual framebuffer.
-      # Required because both tst_engine and tst_main_qml use QGuiApplication
-      # and Qt Quick Test's `when: windowShown` needs an active display.
+      # QT_QPA_PLATFORM=offscreen: runs the full Qt Quick event loop in memory
+      # without a real display. Avoids xcb/Xvfb dependencies entirely.
+      # The offscreen platform correctly fires windowShown for Qt Quick Test.
       - name: Test
-        run: xvfb-run -a ctest --test-dir build --output-on-failure
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: ctest --test-dir build --output-on-failure

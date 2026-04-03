@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main, "ci/**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Install Qt 6.7.2 via aqtinstall wrapper.
+      # cache: true stores the Qt installation between runs (~20s vs ~3min cold).
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v3
+        with:
+          version: '6.7.2'
+          host: 'linux'
+          target: 'desktop'
+          arch: 'linux_gcc_64'
+          # qtdeclarative (QtQuick/QtQml/QtQuickTest) is bundled in the base Qt6 install.
+          # Only separately-packaged extras need to be listed here.
+          modules: 'qtmultimedia qtsensors qtpositioning'
+          cache: true
+
+      # mesa libs: OpenGL/GLES backend for headless Qt rendering
+      # libxkbcommon: keyboard input handling used internally by Qt on Linux
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y --no-install-recommends \
+            libgl1-mesa-dev \
+            libgles2-mesa-dev \
+            libxkbcommon-dev
+
+      - name: Configure
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build --parallel $(nproc)
+
+      # QT_QPA_PLATFORM=offscreen: runs the full Qt Quick event loop in memory
+      # without a real display. Avoids xcb/Xvfb dependencies entirely.
+      # The offscreen platform correctly fires windowShown for Qt Quick Test.
+      - name: Test
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: ctest --test-dir build --output-on-failure

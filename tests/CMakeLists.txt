@@ -11,8 +11,9 @@ qt_add_qml_module(tst_main_qml
     VERSION 1.0
     QML_FILES
         tst_main_qml.qml
-        # Also expose the main app QML so the test can import it
-        ../main.qml
+        # Note: main.qml is loaded via `source: "../main.qml"` (filesystem) in the
+        # test file itself, so it does not need to be embedded in this QML module.
+        # Adding it here causes a duplicate CMake rule conflict with tst_engine below.
 )
 
 target_link_libraries(tst_main_qml PRIVATE

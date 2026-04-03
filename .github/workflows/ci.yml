@@ -23,9 +23,9 @@ jobs:
           host: 'linux'
           target: 'desktop'
           arch: 'linux_gcc_64'
-          # qtdeclarative = QtQuick + QtQml + QtQuickTest
-          # remaining modules match CMakeLists.txt find_package requirements
-          modules: 'qtdeclarative qtmultimedia qtsensors qtpositioning'
+          # qtdeclarative (QtQuick/QtQml/QtQuickTest) is bundled in the base Qt6 install.
+          # Only separately-packaged extras need to be listed here.
+          modules: 'qtmultimedia qtsensors qtpositioning'
           cache: true
 
       # xvfb: virtual framebuffer required by QGuiApplication and Qt Quick Test

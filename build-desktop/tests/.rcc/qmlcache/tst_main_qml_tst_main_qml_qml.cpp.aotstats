@@ -49,8 +49,48 @@
                             "codegenResult": 2,
                             "column": 5,
                             "durationMicroseconds": 0,
+                            "functionName": "test_videoOutputExists",
+                            "line": 70,
+                            "message": "Cannot load property item from (component in /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml)::loader with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "test_cameraObjectExists",
+                            "line": 80,
+                            "message": "Cannot load property item from (component in /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml)::loader with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "test_videoOutputFillsParent",
+                            "line": 90,
+                            "message": "Cannot load property item from (component in /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml)::loader with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "test_overlayIsTransparent",
+                            "line": 103,
+                            "message": "Cannot load property item from (component in /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml)::loader with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "test_windowFallbackColor",
+                            "line": 115,
+                            "message": "Cannot load property item from (component in /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml)::loader with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
                             "functionName": "test_recordButtonExists",
-                            "line": 69,
+                            "line": 125,
                             "message": "Cannot load property item from (component in /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml)::loader with type QVariant."
                         },
                         {
@@ -58,7 +98,7 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "test_recordButtonPressedColor",
-                            "line": 80,
+                            "line": 136,
                             "message": "Cannot load property item from (component in /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml)::loader with type QVariant."
                         }
                     ],

@@ -63,7 +63,63 @@ TestCase {
     }
 
     // ----------------------------------------------------------------
-    // Test 3: Record button exists
+    // Test 3: VideoOutput item exists in scene
+    // RED: will fail if VideoOutput with objectName "videoOutput" is absent
+    // Note: actual camera feed requires on-device validation (hardware-dependent)
+    // ----------------------------------------------------------------
+    function test_videoOutputExists() {
+        var win = loader.item
+        var vo = findChild(win, "videoOutput")
+        verify(vo !== null, "videoOutput item should exist in scene")
+    }
+
+    // ----------------------------------------------------------------
+    // Test 3b: Camera object exists in the QML tree
+    // RED: will fail if Camera objectName "camera" is absent
+    // ----------------------------------------------------------------
+    function test_cameraObjectExists() {
+        var win = loader.item
+        var cam = findChild(win, "camera")
+        verify(cam !== null, "camera object should exist in scene")
+    }
+
+    // ----------------------------------------------------------------
+    // Test 3c: VideoOutput fills the full screen
+    // RED: will fail if anchors.fill: parent is removed or overridden
+    // ----------------------------------------------------------------
+    function test_videoOutputFillsParent() {
+        var win = loader.item
+        var vo = findChild(win, "videoOutput")
+        verify(vo !== null, "videoOutput item should exist")
+        // Allow ±1px for sub-pixel rounding
+        verify(Math.abs(vo.width  - win.width)  <= 1, "videoOutput width should match window")
+        verify(Math.abs(vo.height - win.height) <= 1, "videoOutput height should match window")
+    }
+
+    // ----------------------------------------------------------------
+    // Test 3d: Overlay Rectangle is transparent (camera shows through)
+    // RED: will fail if overlay color reverts to an opaque value
+    // ----------------------------------------------------------------
+    function test_overlayIsTransparent() {
+        var win = loader.item
+        var overlay = findChild(win, "overlay")
+        verify(overlay !== null, "overlay rectangle should exist")
+        // Qt renders "transparent" as alpha=0; toString() gives "#00000000"
+        compare(overlay.color.a, 0, "overlay should be fully transparent")
+    }
+
+    // ----------------------------------------------------------------
+    // Test 3e: ApplicationWindow has dark fallback color
+    // RED: will fail if fallback color is removed (leaves blank window on denial)
+    // ----------------------------------------------------------------
+    function test_windowFallbackColor() {
+        var win = loader.item
+        verify(win !== null, "root item should exist")
+        compare(win.color.toString(), "#1a1a1a", "window fallback color should be #1a1a1a")
+    }
+
+    // ----------------------------------------------------------------
+    // Test 4: Record button exists
     // RED: will fail if Button with id recordButton is absent
     // ----------------------------------------------------------------
     function test_recordButtonExists() {

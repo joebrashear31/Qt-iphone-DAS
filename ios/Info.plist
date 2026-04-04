@@ -28,6 +28,10 @@
     <key>UIStatusBarHidden</key>
     <true/>
 
+    <!-- Required by Qt Multimedia (camera access) -->
+    <key>NSCameraUsageDescription</key>
+    <string>SenseCapture needs camera access to show a live preview.</string>
+
     <!-- Required by Qt Multimedia (microphone access) -->
     <key>NSMicrophoneUsageDescription</key>
     <string>SenseCapture needs microphone access to record audio.</string>

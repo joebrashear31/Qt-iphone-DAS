@@ -69,7 +69,6 @@ include CMakeFiles/module_tst_main_qml_aotstats_target.dir/progress.make
 CMakeFiles/module_tst_main_qml_aotstats_target: tests/.rcc/qmlcache/module_tst_main_qml.aotstats
 
 tests/.rcc/qmlcache/module_tst_main_qml.aotstats: tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.aotstats
-tests/.rcc/qmlcache/module_tst_main_qml.aotstats: tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp.aotstats
 tests/.rcc/qmlcache/module_tst_main_qml.aotstats: tests/.rcc/qmlcache/module_tst_main_qml.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating tests/.rcc/qmlcache/module_tst_main_qml.aotstats"
 	/opt/homebrew/share/qt/libexec/qmlaotstats aggregate /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/module_tst_main_qml.aotstatslist /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/module_tst_main_qml.aotstats

@@ -68,7 +68,6 @@ include tests/CMakeFiles/tst_main_qml_qmllint_json.dir/progress.make
 
 tests/CMakeFiles/tst_main_qml_qmllint_json: /opt/homebrew/bin/qmllint
 tests/CMakeFiles/tst_main_qml_qmllint_json: /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml
-tests/CMakeFiles/tst_main_qml_qmllint_json: /Users/joebrashear/Desktop/Qt-iphone-DAS/main.qml
 tests/CMakeFiles/tst_main_qml_qmllint_json: tests/.rcc/qmllint/tst_main_qml_json.rsp
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/tests && /opt/homebrew/bin/qmllint @/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmllint/tst_main_qml_json.rsp
 

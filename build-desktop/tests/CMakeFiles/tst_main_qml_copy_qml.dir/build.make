@@ -70,7 +70,6 @@ tests/CMakeFiles/tst_main_qml_copy_qml: tests/.qt/tst_main_qml_qml.txt
 
 tests/.qt/tst_main_qml_qml.txt: /opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 tests/.qt/tst_main_qml_qml.txt: /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml
-tests/.qt/tst_main_qml_qml.txt: /Users/joebrashear/Desktop/Qt-iphone-DAS/main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying tst_main_qml qml sources into build dir"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /opt/homebrew/bin/cmake -DFILES_INFO_PATH=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/tst_main_qml_qml.cmake -P /opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

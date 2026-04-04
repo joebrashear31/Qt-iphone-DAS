@@ -72,7 +72,6 @@ tests/.qt/qml_imports/tst_main_qml_build.cmake: /opt/homebrew/share/qt/libexec/q
 tests/.qt/qml_imports/tst_main_qml_build.cmake: tests/.qt/rcc/qmake_SenseCapture.qrc
 tests/.qt/qml_imports/tst_main_qml_build.cmake: tests/.qt/rcc/tst_main_qml_raw_qml_0.qrc
 tests/.qt/qml_imports/tst_main_qml_build.cmake: /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml
-tests/.qt/qml_imports/tst_main_qml_build.cmake: /Users/joebrashear/Desktop/Qt-iphone-DAS/main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for tst_main_qml"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/tests && /opt/homebrew/share/qt/libexec/qmlimportscanner @/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/qml_imports/tst_main_qml_build.rsp
 

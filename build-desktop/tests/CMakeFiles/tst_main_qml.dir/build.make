@@ -120,33 +120,19 @@ tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp: tests/SenseCapture/qmldir
 tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.aotstats: tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.aotstats
 
-tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp: /opt/homebrew/share/qt/libexec/qmlcachegen
-tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp: /Users/joebrashear/Desktop/Qt-iphone-DAS/main.qml
-tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp: tests/.qt/rcc/qmake_SenseCapture.qrc
-tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp: tests/.qt/rcc/tst_main_qml_raw_qml_0.qrc
-tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp: tests/SenseCapture/tst_main_qml.qmltypes
-tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp: tests/SenseCapture/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/tst_main_qml_../main_qml.cpp, .rcc/qmlcache/tst_main_qml_../main_qml.cpp.aotstats"
-	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /opt/homebrew/bin/cmake -E make_directory /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/tst_main_qml_..
-	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /opt/homebrew/share/qt/libexec/qmlcachegen --bare --resource-path /SenseCapture/../main.qml -I /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests -I /opt/homebrew/share/qt/qml -i /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/SenseCapture/qmldir --resource /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/qmake_SenseCapture.qrc --resource /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/tst_main_qml_raw_qml_0.qrc --dump-aot-stats "--module-id=SenseCapture(tst_main_qml)" -o /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp /Users/joebrashear/Desktop/Qt-iphone-DAS/main.qml
-
-tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp.aotstats: tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp.aotstats
-
 tests/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp: /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/tst_main_qml.qml
-tests/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp: /Users/joebrashear/Desktop/Qt-iphone-DAS/main.qml
 tests/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp: tests/.qt/rcc/tst_main_qml_raw_qml_0.qrc
 tests/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp: /opt/homebrew/share/qt/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource tst_main_qml_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource tst_main_qml_raw_qml_0"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /opt/homebrew/share/qt/libexec/rcc --output /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp --name tst_main_qml_raw_qml_0 /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/tst_main_qml_raw_qml_0.qrc
 
 tests/meta_types/tst_main_qml_json_file_list.txt: /opt/homebrew/share/qt/libexec/cmake_automoc_parser
 tests/meta_types/tst_main_qml_json_file_list.txt: tests/tst_main_qml_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running AUTOMOC file extraction for target tst_main_qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running AUTOMOC file extraction for target tst_main_qml"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /opt/homebrew/share/qt/libexec/cmake_automoc_parser --cmake-autogen-cache-file /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/CMakeFiles/tst_main_qml_autogen.dir/ParseCache.txt --cmake-autogen-info-file /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/CMakeFiles/tst_main_qml_autogen.dir/AutogenInfo.json --output-file-path /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/meta_types/tst_main_qml_json_file_list.txt --timestamp-file-path /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/meta_types/tst_main_qml_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/tst_main_qml_autogen/include
 
 tests/meta_types/qt6tst_main_qml_metatypes.json: tests/meta_types/qt6tst_main_qml_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating meta_types/qt6tst_main_qml_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating meta_types/qt6tst_main_qml_metatypes.json"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /opt/homebrew/bin/cmake -E true
 
 tests/CMakeFiles/tst_main_qml.dir/codegen:
@@ -155,7 +141,7 @@ tests/CMakeFiles/tst_main_qml.dir/codegen:
 tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.o: tests/CMakeFiles/tst_main_qml.dir/flags.make
 tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.o: tests/tst_main_qml_autogen/mocs_compilation.cpp
 tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.o: tests/CMakeFiles/tst_main_qml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.o"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.o -MF CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.o -c /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/tst_main_qml_autogen/mocs_compilation.cpp
 
 tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.i: cmake_force
@@ -169,7 +155,7 @@ tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_autogen/mocs_compilation.cpp.s: c
 tests/CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.o: tests/CMakeFiles/tst_main_qml.dir/flags.make
 tests/CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.o: /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/qml_test_runner.cpp
 tests/CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.o: tests/CMakeFiles/tst_main_qml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.o"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.o -MF CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.o.d -o CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.o -c /Users/joebrashear/Desktop/Qt-iphone-DAS/tests/qml_test_runner.cpp
 
 tests/CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.i: cmake_force
@@ -183,7 +169,7 @@ tests/CMakeFiles/tst_main_qml.dir/qml_test_runner.cpp.s: cmake_force
 tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.o: tests/CMakeFiles/tst_main_qml.dir/flags.make
 tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.o: tests/tst_main_qml_qmltyperegistrations.cpp
 tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.o: tests/CMakeFiles/tst_main_qml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.o"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.o -MF CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.o.d -o CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.o -c /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/tst_main_qml_qmltyperegistrations.cpp
 
 tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.i: cmake_force
@@ -197,7 +183,7 @@ tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegistrations.cpp.s: cmake
 tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o: tests/CMakeFiles/tst_main_qml.dir/flags.make
 tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o: tests/.qt/rcc/qrc_qmake_SenseCapture.cpp
 tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o: tests/CMakeFiles/tst_main_qml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o -MF CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o.d -o CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o -c /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/qrc_qmake_SenseCapture.cpp
 
 tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.i: cmake_force
@@ -211,7 +197,7 @@ tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.s: cmake_fo
 tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o: tests/CMakeFiles/tst_main_qml.dir/flags.make
 tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o: tests/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp
 tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o: tests/CMakeFiles/tst_main_qml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o -MF CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o.d -o CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o -c /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp
 
 tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.i: cmake_force
@@ -225,7 +211,7 @@ tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp
 tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o: tests/CMakeFiles/tst_main_qml.dir/flags.make
 tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o: tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp
 tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o: tests/CMakeFiles/tst_main_qml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o -MF CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o.d -o CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o -c /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp
 
 tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.i: cmake_force
@@ -236,24 +222,10 @@ tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.s"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp -o CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.s
 
-tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o: tests/CMakeFiles/tst_main_qml.dir/flags.make
-tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o: tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp
-tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o: tests/CMakeFiles/tst_main_qml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o"
-	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o -MF CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o.d -o CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o -c /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp
-
-tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.i"
-	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp > CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.i
-
-tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.s"
-	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp -o CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.s
-
 tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o: tests/CMakeFiles/tst_main_qml.dir/flags.make
 tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o: tests/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp
 tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o: tests/CMakeFiles/tst_main_qml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o -MF CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o.d -o CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o -c /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp
 
 tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.i: cmake_force
@@ -272,7 +244,6 @@ tst_main_qml_OBJECTS = \
 "CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o" \
 "CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o" \
 "CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o" \
-"CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o" \
 "CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o"
 
 # External object files for target tst_main_qml
@@ -284,7 +255,6 @@ tests/tst_main_qml: tests/CMakeFiles/tst_main_qml.dir/tst_main_qml_qmltyperegist
 tests/tst_main_qml: tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o
 tests/tst_main_qml: tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o
 tests/tst_main_qml: tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o
-tests/tst_main_qml: tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o
 tests/tst_main_qml: tests/CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o
 tests/tst_main_qml: tests/CMakeFiles/tst_main_qml.dir/build.make
 tests/tst_main_qml: /opt/homebrew/lib/QtQuickTest.framework/Versions/A/QtQuickTest
@@ -296,7 +266,7 @@ tests/tst_main_qml: /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork
 tests/tst_main_qml: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 tests/tst_main_qml: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 tests/tst_main_qml: tests/CMakeFiles/tst_main_qml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable tst_main_qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable tst_main_qml"
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tst_main_qml.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -309,8 +279,6 @@ tests/CMakeFiles/tst_main_qml.dir/clean:
 
 tests/CMakeFiles/tst_main_qml.dir/depend: tests/.qt/rcc/qrc_qmake_SenseCapture.cpp
 tests/CMakeFiles/tst_main_qml.dir/depend: tests/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp
-tests/CMakeFiles/tst_main_qml.dir/depend: tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp
-tests/CMakeFiles/tst_main_qml.dir/depend: tests/.rcc/qmlcache/tst_main_qml_../main_qml.cpp.aotstats
 tests/CMakeFiles/tst_main_qml.dir/depend: tests/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp
 tests/CMakeFiles/tst_main_qml.dir/depend: tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp
 tests/CMakeFiles/tst_main_qml.dir/depend: tests/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.aotstats

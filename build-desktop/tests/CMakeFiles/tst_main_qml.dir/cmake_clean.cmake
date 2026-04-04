@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   ".qt/rcc/qrc_qmake_SenseCapture.cpp"
   ".qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp"
-  ".rcc/qmlcache/tst_main_qml_../main_qml.cpp"
-  ".rcc/qmlcache/tst_main_qml_../main_qml.cpp.aotstats"
   ".rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp"
   ".rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp"
   ".rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.aotstats"
@@ -13,8 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_qmake_SenseCapture.cpp.o.d"
   "CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o"
   "CMakeFiles/tst_main_qml.dir/.qt/rcc/qrc_tst_main_qml_raw_qml_0.cpp.o.d"
-  "CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o"
-  "CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o.d"
   "CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o"
   "CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o.d"
   "CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml_tst_main_qml_qml.cpp.o"

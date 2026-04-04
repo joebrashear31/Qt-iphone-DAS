@@ -550,30 +550,6 @@ tst_engine_autogen/fast:
 	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_engine.dir/build.make tests/CMakeFiles/tst_engine.dir/.rcc/qmlcache/tst_engine_qmlcache_loader.cpp.s
 .PHONY : .rcc/qmlcache/tst_engine_qmlcache_loader.cpp.s
 
-.rcc/qmlcache/tst_main_qml___/main_qml.o: .rcc/qmlcache/tst_main_qml___/main_qml.cpp.o
-.PHONY : .rcc/qmlcache/tst_main_qml___/main_qml.o
-
-# target to build an object file
-.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o:
-	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml.dir/build.make tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.o
-.PHONY : .rcc/qmlcache/tst_main_qml___/main_qml.cpp.o
-
-.rcc/qmlcache/tst_main_qml___/main_qml.i: .rcc/qmlcache/tst_main_qml___/main_qml.cpp.i
-.PHONY : .rcc/qmlcache/tst_main_qml___/main_qml.i
-
-# target to preprocess a source file
-.rcc/qmlcache/tst_main_qml___/main_qml.cpp.i:
-	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml.dir/build.make tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.i
-.PHONY : .rcc/qmlcache/tst_main_qml___/main_qml.cpp.i
-
-.rcc/qmlcache/tst_main_qml___/main_qml.s: .rcc/qmlcache/tst_main_qml___/main_qml.cpp.s
-.PHONY : .rcc/qmlcache/tst_main_qml___/main_qml.s
-
-# target to generate assembly for a file
-.rcc/qmlcache/tst_main_qml___/main_qml.cpp.s:
-	cd /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml.dir/build.make tests/CMakeFiles/tst_main_qml.dir/.rcc/qmlcache/tst_main_qml___/main_qml.cpp.s
-.PHONY : .rcc/qmlcache/tst_main_qml___/main_qml.cpp.s
-
 .rcc/qmlcache/tst_main_qml_qmlcache_loader.o: .rcc/qmlcache/tst_main_qml_qmlcache_loader.cpp.o
 .PHONY : .rcc/qmlcache/tst_main_qml_qmlcache_loader.o
 
@@ -813,9 +789,6 @@ help:
 	@echo "... .rcc/qmlcache/tst_engine_qmlcache_loader.o"
 	@echo "... .rcc/qmlcache/tst_engine_qmlcache_loader.i"
 	@echo "... .rcc/qmlcache/tst_engine_qmlcache_loader.s"
-	@echo "... .rcc/qmlcache/tst_main_qml___/main_qml.o"
-	@echo "... .rcc/qmlcache/tst_main_qml___/main_qml.i"
-	@echo "... .rcc/qmlcache/tst_main_qml___/main_qml.s"
 	@echo "... .rcc/qmlcache/tst_main_qml_qmlcache_loader.o"
 	@echo "... .rcc/qmlcache/tst_main_qml_qmlcache_loader.i"
 	@echo "... .rcc/qmlcache/tst_main_qml_qmlcache_loader.s"

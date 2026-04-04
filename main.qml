@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtMultimedia
 
 // Root window — fullscreen on iOS via visibility flag
 ApplicationWindow {
@@ -7,11 +8,35 @@ ApplicationWindow {
     visible: true
     visibility: Window.FullScreen
     title: "SenseCapture"
+    // Fallback background color shown when camera is unavailable or denied
+    color: "#1a1a1a"
 
-    // Dark background to suit a capture/sensor app aesthetic
-    Rectangle {
+    // Camera backend — Qt selects the default device (back camera on iPhone)
+    Camera {
+        id: camera
+        objectName: "camera"   // required for findChild() in Qt Quick Test
+        active: true
+    }
+
+    // Connects the camera pipeline to the VideoOutput render surface
+    CaptureSession {
+        camera: camera
+        videoOutput: videoOutput
+    }
+
+    // Fullscreen camera preview — rendered below the UI overlay
+    VideoOutput {
+        id: videoOutput
+        objectName: "videoOutput"
         anchors.fill: parent
-        color: "#1a1a1a"
+    }
+
+    // Transparent overlay — preserves layout context for title and button
+    // while allowing the camera preview to show through
+    Rectangle {
+        objectName: "overlay"   // required for findChild() in Qt Quick Test
+        anchors.fill: parent
+        color: "transparent"
 
         // Centered app title
         Text {

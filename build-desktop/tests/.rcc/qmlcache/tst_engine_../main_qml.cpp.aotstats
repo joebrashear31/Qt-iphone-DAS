@@ -10,15 +10,39 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "visibility",
-                            "line": 8,
+                            "line": 9,
                             "message": "Could not find property \"visibility\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "camera",
+                            "line": 23,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "videoOutput",
+                            "line": 24,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 13,
+                            "line": 31,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 38,
                             "message": ""
                         },
                         {
@@ -26,7 +50,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 20,
+                            "line": 45,
                             "message": ""
                         },
                         {
@@ -34,7 +58,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 24,
+                            "line": 49,
                             "message": ""
                         },
                         {
@@ -42,7 +66,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 32,
+                            "line": 57,
                             "message": "Could not find property \"horizontalCenter\"."
                         },
                         {
@@ -50,7 +74,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "top",
-                            "line": 33,
+                            "line": 58,
                             "message": "Could not find property \"top\"."
                         },
                         {
@@ -58,7 +82,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 42,
+                            "line": 67,
                             "message": "Cannot access value for name recordButton"
                         },
                         {
@@ -66,7 +90,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 45,
+                            "line": 70,
                             "message": "Cannot access value for name recordButton"
                         },
                         {
@@ -74,7 +98,7 @@
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 48,
+                            "line": 73,
                             "message": ""
                         },
                         {
@@ -82,7 +106,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 49,
+                            "line": 74,
                             "message": ""
                         }
                     ],

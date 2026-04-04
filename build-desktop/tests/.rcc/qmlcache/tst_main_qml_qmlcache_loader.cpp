@@ -12,13 +12,6 @@ namespace _0x5f_SenseCapture_tst_main_qml_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _0x5f_SenseCapture__0x2e__0x2e__main_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
 
 }
 namespace {
@@ -34,7 +27,6 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/SenseCapture/tst_main_qml.qml"), &QmlCacheGeneratedCode::_0x5f_SenseCapture_tst_main_qml_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/SenseCapture/../main.qml"), &QmlCacheGeneratedCode::_0x5f_SenseCapture__0x2e__0x2e__main_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

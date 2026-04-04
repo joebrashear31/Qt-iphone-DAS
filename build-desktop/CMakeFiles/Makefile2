@@ -789,16 +789,16 @@ tests/CMakeFiles/tst_main_qml.dir/all: CMakeFiles/generate_qmlls_build_ini_file.
 tests/CMakeFiles/tst_main_qml.dir/all: tests/CMakeFiles/tst_main_qml_copy_qml.dir/all
 tests/CMakeFiles/tst_main_qml.dir/all: tests/CMakeFiles/tst_main_qml_copy_res.dir/all
 tests/CMakeFiles/tst_main_qml.dir/all: tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/all
-tests/CMakeFiles/tst_main_qml.dir/all: tests/CMakeFiles/tst_main_qml_autogen_timestamp_deps.dir/all
 tests/CMakeFiles/tst_main_qml.dir/all: tests/CMakeFiles/tst_main_qml_autogen.dir/all
+tests/CMakeFiles/tst_main_qml.dir/all: tests/CMakeFiles/tst_main_qml_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml.dir/build.make tests/CMakeFiles/tst_main_qml.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml.dir/build.make tests/CMakeFiles/tst_main_qml.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74 "Built target tst_main_qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target tst_main_qml"
 .PHONY : tests/CMakeFiles/tst_main_qml.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/tst_main_qml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/tst_main_qml.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles 0
 .PHONY : tests/CMakeFiles/tst_main_qml.dir/rule
@@ -812,7 +812,7 @@ tests/CMakeFiles/tst_main_qml.dir/codegen: CMakeFiles/generate_qmlls_build_ini_f
 tests/CMakeFiles/tst_main_qml.dir/codegen: tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/all
 tests/CMakeFiles/tst_main_qml.dir/codegen: tests/CMakeFiles/tst_main_qml_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml.dir/build.make tests/CMakeFiles/tst_main_qml.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74 "Finished codegen for target tst_main_qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Finished codegen for target tst_main_qml"
 .PHONY : tests/CMakeFiles/tst_main_qml.dir/codegen
 
 # clean rule for target.
@@ -827,7 +827,7 @@ tests/CMakeFiles/tst_main_qml.dir/clean:
 tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/all: tests/CMakeFiles/tst_main_qml_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/build.make tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/build.make tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=79,80,81,82,83 "Built target tst_main_qml_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=77,78,79,80,81 "Built target tst_main_qml_qmltyperegistration"
 .PHONY : tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
@@ -844,7 +844,7 @@ tst_main_qml_qmltyperegistration: tests/CMakeFiles/tst_main_qml_qmltyperegistrat
 # codegen rule for target.
 tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/codegen: tests/CMakeFiles/tst_main_qml_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/build.make tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=79,80,81,82,83 "Finished codegen for target tst_main_qml_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=77,78,79,80,81 "Finished codegen for target tst_main_qml_qmltyperegistration"
 .PHONY : tests/CMakeFiles/tst_main_qml_qmltyperegistration.dir/codegen
 
 # clean rule for target.
@@ -955,7 +955,7 @@ tests/CMakeFiles/tst_main_qml_qmllint_module.dir/clean:
 tests/CMakeFiles/tst_main_qml_copy_qml.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_copy_qml.dir/build.make tests/CMakeFiles/tst_main_qml_copy_qml.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_copy_qml.dir/build.make tests/CMakeFiles/tst_main_qml_copy_qml.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=76 "Built target tst_main_qml_copy_qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=74 "Built target tst_main_qml_copy_qml"
 .PHONY : tests/CMakeFiles/tst_main_qml_copy_qml.dir/all
 
 # Build rule for subdir invocation for target.
@@ -972,7 +972,7 @@ tst_main_qml_copy_qml: tests/CMakeFiles/tst_main_qml_copy_qml.dir/rule
 # codegen rule for target.
 tests/CMakeFiles/tst_main_qml_copy_qml.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_copy_qml.dir/build.make tests/CMakeFiles/tst_main_qml_copy_qml.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=76 "Finished codegen for target tst_main_qml_copy_qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=74 "Finished codegen for target tst_main_qml_copy_qml"
 .PHONY : tests/CMakeFiles/tst_main_qml_copy_qml.dir/codegen
 
 # clean rule for target.
@@ -987,7 +987,7 @@ tests/CMakeFiles/tst_main_qml_copy_qml.dir/clean:
 tests/CMakeFiles/tst_main_qml_copy_res.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_copy_res.dir/build.make tests/CMakeFiles/tst_main_qml_copy_res.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_copy_res.dir/build.make tests/CMakeFiles/tst_main_qml_copy_res.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=77 "Built target tst_main_qml_copy_res"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=75 "Built target tst_main_qml_copy_res"
 .PHONY : tests/CMakeFiles/tst_main_qml_copy_res.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1004,7 +1004,7 @@ tst_main_qml_copy_res: tests/CMakeFiles/tst_main_qml_copy_res.dir/rule
 # codegen rule for target.
 tests/CMakeFiles/tst_main_qml_copy_res.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_copy_res.dir/build.make tests/CMakeFiles/tst_main_qml_copy_res.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=77 "Finished codegen for target tst_main_qml_copy_res"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=75 "Finished codegen for target tst_main_qml_copy_res"
 .PHONY : tests/CMakeFiles/tst_main_qml_copy_res.dir/codegen
 
 # clean rule for target.
@@ -1250,7 +1250,7 @@ tests/CMakeFiles/tst_engine_copy_res.dir/clean:
 tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/build.make tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/build.make tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=78 "Built target tst_main_qml_qmlimportscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=76 "Built target tst_main_qml_qmlimportscan"
 .PHONY : tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1267,7 +1267,7 @@ tst_main_qml_qmlimportscan: tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/rule
 # codegen rule for target.
 tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/build.make tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=78 "Finished codegen for target tst_main_qml_qmlimportscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=76 "Finished codegen for target tst_main_qml_qmlimportscan"
 .PHONY : tests/CMakeFiles/tst_main_qml_qmlimportscan.dir/codegen
 
 # clean rule for target.
@@ -1349,7 +1349,7 @@ tests/CMakeFiles/tst_main_qml_autogen_timestamp_deps.dir/clean:
 tests/CMakeFiles/tst_main_qml_autogen.dir/all: tests/CMakeFiles/tst_main_qml_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_autogen.dir/build.make tests/CMakeFiles/tst_main_qml_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_autogen.dir/build.make tests/CMakeFiles/tst_main_qml_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=75 "Built target tst_main_qml_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=73 "Built target tst_main_qml_autogen"
 .PHONY : tests/CMakeFiles/tst_main_qml_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1366,7 +1366,7 @@ tst_main_qml_autogen: tests/CMakeFiles/tst_main_qml_autogen.dir/rule
 # codegen rule for target.
 tests/CMakeFiles/tst_main_qml_autogen.dir/codegen: tests/CMakeFiles/tst_main_qml_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tst_main_qml_autogen.dir/build.make tests/CMakeFiles/tst_main_qml_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=75 "Finished codegen for target tst_main_qml_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/joebrashear/Desktop/Qt-iphone-DAS/build-desktop/CMakeFiles --progress-num=73 "Finished codegen for target tst_main_qml_autogen"
 .PHONY : tests/CMakeFiles/tst_main_qml_autogen.dir/codegen
 
 # clean rule for target.
